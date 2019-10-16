@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>slambook</title>
+	<link type="text/css" rel="stylesheet" href='styles.css'>
+</head>
+<body>
+	<header>
+	<section id='header_name'>
+			<center>SlamBook</center>			
+	</section>
+	<div style="margin-top: 15px;">
+		<div id='index_left'>
+		       <img src="img.jpg" width="970px" height="800px">
+			   <p style="padding-top:20px;font-size:20px;color:grey">Hi friends,this is Raviteja Simhadri....Please enter your valuble details here...</p>
+			 
+		</div>
+		
+			<div id='index_right'>
+				<form method="post" action="post.php">
+				<div style="color:green;font-size:30px;padding-top:20px;padding-left:110px;text-shadow:1px 1px 1px yellow,2px 2px 2px blue;"> Enter Criminal Details Here....</div>
+				<table>
+					  <tr>
+							<td><b>CRIMINAL_ID</b></td>
+							<td><input id='input_field2' type="text" name="cid" placeholder="Ex:CR1202" required /></td>
+					  </tr>
+					  <tr>
+							<td><b>FIRST NAME</b></td>
+							<td><input id='input_field2'type="text" name="fname" placeholder="Ex:Raviteja" required/>
+					  </tr>
+					   <tr>
+							<td><b>LAST NAME</b></td>
+							<td><input id='input_field2' type="text" name="lname" placeholder="Ex:Surname">
+					  </tr>
+					   <tr>
+							<td><b>GENDER</b></td>
+							<td><input type="radio" required value="male" name="sex" />Male<input type="radio" name="sex" value="female">Female</td>
+					  </tr>
+					  <tr>
+							<td><b>DATE OF BIRTH</b></td>
+							<td><input id='input_field2' type="text" name="dob" placeholder="DD-MM-YYYY"></td>
+					  </tr>
+					   <tr>
+							<td><b>CRIME NAME</b></td>
+							<td><input id='input_field2' type="text" name="crname" placeholder="Ex:Murder" required/>
+					  </tr>
+					  <tr>
+							<td><b>CRIME DATE</b></td>
+							<td><input id='input_field2' type="text" name="cdate" placeholder="DD-MM-YYYY"></td>
+					  </tr>
+					  <tr>
+							<td><b>PLACE_Happend</b></td>
+							<td><select id='input_field3' name="place" >
+										<option value="skml">Srikakulam</option>
+										<option value="vzm" >Vizianagaram</option>
+										<option value="vskp" >Vishakhapatnam</option>
+										<option value="eg" >East Godavari</option>
+										<option value="wg" >West Godavari</option>
+										<option value="kr">Krishna</option>
+										<option value="gu">Guntur</option>
+										<option value="pr" >Prakasam</option>
+										<option value="Nr" >Nellore</option>
+										<option value="Ch" >Chittor</option>
+										<option value="kp" >Kadapa</option>
+										<option value="kl">Kurnool</option>
+										<option value="an">Anathapuram</option>
+										</select>
+							  </td>
+					  </tr>
+					   <tr>
+							<td><b>Description </b></td>
+							<td><textarea id='input_field4' rows="5" cols="25" name="address"></textarea>
+							 </td>
+					  </tr>
+					  <tr>
+							<td><b>CRIMINAL ADDRESS</b></td>
+							<td><textarea id='input_field4' rows="5" cols="25" name="address"></textarea>
+							 </td>
+					  </tr>
+					   <tr>
+							<td></td>
+							<td><input id='btn' type="submit" value="Submit" style='margin:30px'><input id='btn' type="reset" value="Reset" style='margin:10px'></td>
+					  </tr>
+				 
+				</table>
+					</form>
+			</div>
+	</div>
+ </header>
+ <footer>
+		$copy 2017,@Raviteja
+ </footer>
+</body>
+</html>

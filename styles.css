@@ -1,0 +1,96 @@
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+      //background:url(tammu.jpg);
+	  background-color:lightgrey;
+}
+header
+{
+	background:blue;
+	padding:1px;
+	width:100%;
+	top:0px;
+	box-shadow: 2px 2px 8px 2px blue;
+}
+#header_name
+{
+	float:center;
+	color: white;
+	font-size:50px;
+	
+}
+#index_left
+{
+	
+	float: left;
+	width:65%;
+	height: 540px;	
+}
+#index_right
+{
+	float: left;
+	width:35%;
+	background-color:lightgrey;	
+	box-shadow: 0px 0px 2px 2px blue;
+	border-radius: 8px;
+	height:800px;
+	overflow:auto;
+}
+#input_field2
+{
+	width: 90%;
+	margin:7px;
+	border: 2px solid blue;
+	background: white;
+	border-radius: 8px;
+	padding-left: 6px;
+	height: 40px;
+	transition:0.4s;
+	
+}
+#input_field3
+{
+	margin:7px;
+	border: 0px solid blue;
+	background: white;
+	border-radius: 8px;
+	padding-left: 6px;
+	height: 40px;
+	box-shadow: 0px 0px 1px 1px blue;
+}
+#input_field4
+{
+	width: 90%;
+	margin:10px;
+	border: 2px solid blue;
+	background: white;
+	border-radius: 8px;
+	padding-left: 6px;
+	height: 60px;
+	transition:0.4s;
+	
+}
+#btn
+{
+	background:black;
+	color:white;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 35px;
+	width: 25%;
+}
+footer
+{
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+	text-align: center;
+	background: blue;
+	font-size:14px;
+	padding: 10px;
+	color:white;
+	box-shadow: 0px 0px 15px 1px blue;
+}
